@@ -1,0 +1,4 @@
+config BR2_PACKAGE_AESD_CHAR_DEV
+	bool "aesd-char-dev"
+	help
+	  Build to include aesd-cdev driver from AESD

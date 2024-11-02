@@ -1,0 +1,19 @@
+case $1 in
+    start)
+        echo "Loading LDD"
+        
+        scull_load -buildroot
+		module_load -buildroot faulty
+		modprobe hello
+        ;;
+    stop)
+        echo "Unloading LDD"
+        
+        scull_unload
+		module_unload faulty
+		rmmod hello
+        ;;
+    *)
+        echo "Usage: 'S98lddmodules start' to load LDD Or 'S98lddmodules stop' to unload LDD\n"
+        ;;
+esac
