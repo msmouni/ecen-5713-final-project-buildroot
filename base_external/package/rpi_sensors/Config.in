@@ -1,0 +1,4 @@
+config BR2_PACKAGE_RPI_SENSORS
+    bool "rpi_sensors"
+    help
+      A simple application for sensors data aquisition.
