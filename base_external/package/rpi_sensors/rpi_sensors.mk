@@ -2,7 +2,7 @@
 # rpi_sensors.mk - Buildroot package for Raspberry Pi sensors
 ################################################################################
 
-RPI_SENSORS_VERSION = ce10fdcd71ca6c5eb72b1f2eacaaf540ba67a52b
+RPI_SENSORS_VERSION = fb0ff5f5f71a45ce3f6f7d4992d98dfe65630ce3
 RPI_SENSORS_SITE = https://github.com/msmouni/ecen-5713-final-project-sensors.git
 RPI_SENSORS_SITE_METHOD = git
 
