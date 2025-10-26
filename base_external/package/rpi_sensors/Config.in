@@ -1,4 +1,5 @@
 config BR2_PACKAGE_RPI_SENSORS
     bool "rpi_sensors"
+    select BR2_PACKAGE_SQLITE
     help
-      A simple application for sensors data aquisition.
+      A simple sensor application that uses SQLite to store sensors data.
