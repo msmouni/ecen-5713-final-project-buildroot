@@ -5,7 +5,7 @@
 #
 ##############################################################
 
-LDD_VERSION = d3b8b3684f85b3e96ba7224579e54028d11b2354
+LDD_VERSION = 8d8c7c6a9d31126d486303b6012354e46ebc234b
 LDD_SITE = git@github.com:cu-ecen-aeld/assignment-7-msmouni.git
 LDD_SITE_METHOD = git
 LDD_GIT_SUBMODULES = YES
